@@ -19,6 +19,7 @@
 }
 
 @font-face {
+    font-family: 'Atkinson Hyperlegible';
     src: url('AtkinsonHyperlegible-BoldItalic.woff2') format('woff2'),
         url('AtkinsonHyperlegible-BoldItalic.woff') format('woff'),
         url('AtkinsonHyperlegible-BoldItalic.svg#AtkinsonHyperlegible-BoldItalic') format('svg');
