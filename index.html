@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chiranjit Karmakar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/badc3491b6.js" crossorigin="anonymous"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <!-- Home Page Start -->
+            <div class="swiper-slide home-page">
+                <div class="container">
+                    <header>
+                        <div class="logo-block">
+                            <a href="index.html"><img src="./images/logo-white.png" alt="Chiranjit Karmakar Logo" class="img-fluid" /></a>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="text-block">
+                            <p>I'm a</p>
+                            <h1>Web Designer <span>and</span> Developer</h1>
+                            <a href="tel:8918669308" class="btn">Call Me</a>
+                        </div> <!-- .text-block -->
+                    </main>
+                    <footer>
+                        <div class="social-block">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="swipe-icon">
+                            <img src="./images/swipe-icon.png" alt="Swipe Icon" class="img-fluid" />
+                        </div>
+                    </footer>
+                </div> <!-- .container -->
+
+
+            </div> <!-- .home-page -->
+
+            <!-- About Page Start -->
+            <div class="swiper-slide about-page">
+                <div class="container">
+                    <header>
+                        <div class="logo-block">
+                            <a href="index.html"><img src="./images/logo-white.png" alt="Chiranjit Karmakar Logo" class="img-fluid" /></a>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="text-block">
+                            <h1>About Me</h1>
+                            <p>I am professional <strong>Website Designer</strong> and <strong>Developer</strong> with <strong>4 years</strong> of working experience.</p>
+
+                            <div class="bio">
+                                <ul>
+                                    <li><strong>Age:</strong></li>
+                                    <li><strong>Nationality:</strong></li>
+                                    <li><strong>Address:</strong></li>
+                                    <li><strong>Freelance:</strong></li>
+                                    <li><strong>Phone:</strong></li>
+                                    <li><strong>Email:</strong></li>
+                                </ul>
+                                <ul>
+                                    <li>30</li>
+                                    <li>Indian</li>
+                                    <li>Habra, West Bengal</li>
+                                    <li>Available</li>
+                                    <li><a href="tel:8918669308">8918-669-308</a></li>
+                                    <li><a href="mainto:chiranjit.rick00@gmail.com">chiranjit.rick00@gmail.com</a></li>
+                                </ul>                                
+                            </div>
+                        </div> <!-- .text-block -->
+                    </main>
+                    <footer>
+                        <div class="social-block">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="swipe-icon">
+                            <img src="./images/swipe-icon.png" alt="Swipe Icon" class="img-fluid" />
+                        </div>
+                    </footer>
+                </div> <!-- .container -->
+            </div> <!-- .about-page -->
+
+
+
+            <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)">
+                <h1>page 3</h1>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)">
+                <h1>page 4</h1>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)">
+                <h1>page 5</h1>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!--        <div class="swiper-pagination"></div>-->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+                shadow: false,
+                slideShadows: false,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body></html>
