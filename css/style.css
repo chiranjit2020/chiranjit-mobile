@@ -483,37 +483,39 @@ li {
     }
 
     .swiper-container .swiper-wrapper .portfolio-page main .text-block button.slick-prev.slick-arrow,
-    button.slick-next.slick-arrow{
-        display: none!important;
+    button.slick-next.slick-arrow {
+        display: none !important;
     }
 
 
-        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots{
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 2rem;
     }
 
-        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li{
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li {
         margin: 0 1rem;
     }
-        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li button {
-        font-size: 0rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: #fff;
-    border: none;
-    border-radius: 50%;
-}
-        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li.slick-active button {
-    background: var(--accent-color);
-        color: #000;
-}
 
-        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li button:focus{
-            outline: none;
-            border: none;
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li button {
+        font-size: 0rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: #fff;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li.slick-active button {
+        background: var(--accent-color);
+        color: #000;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li button:focus {
+        outline: none;
+        border: none;
     }
 
     /*Contact Page Start*/
