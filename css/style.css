@@ -89,6 +89,7 @@ li {
     .swiper-container .swiper-wrapper .about-page header,
     .swiper-container .swiper-wrapper .skill-page header,
     .swiper-container .swiper-wrapper .education-page header,
+    .swiper-container .swiper-wrapper .portfolio-page header,
     .swiper-container .swiper-wrapper .contact-page header {
         padding: 2.8rem 0 0 0;
         margin: 0;
@@ -98,6 +99,7 @@ li {
     .swiper-container .swiper-wrapper .about-page header .logo-block,
     .swiper-container .swiper-wrapper .skill-page header .logo-block,
     .swiper-container .swiper-wrapper .education-page header .logo-block,
+    .swiper-container .swiper-wrapper .portfolio-page header .logo-block,
     .swiper-container .swiper-wrapper .contact-page header .logo-block {
         width: 160px;
     }
@@ -153,6 +155,7 @@ li {
     .swiper-container .swiper-wrapper .about-page footer,
     .swiper-container .swiper-wrapper .skill-page footer,
     .swiper-container .swiper-wrapper .education-page footer,
+    .swiper-container .swiper-wrapper .portfolio-page footer,
     .swiper-container .swiper-wrapper .contact-page footer {
         display: flex;
         justify-content: space-between;
@@ -170,6 +173,7 @@ li {
     .swiper-container .swiper-wrapper .about-page footer .social-block a,
     .swiper-container .swiper-wrapper .skill-page footer .social-block a,
     .swiper-container .swiper-wrapper .education-page footer .social-block a,
+    .swiper-container .swiper-wrapper .portfolio-page footer .social-block a,
     .swiper-container .swiper-wrapper .contact-page footer .social-block a {
         font-size: 2rem;
         color: #fff;
@@ -182,6 +186,7 @@ li {
     .swiper-container .swiper-wrapper .about-page footer .social-block a:active,
     .swiper-container .swiper-wrapper .skill-page footer .social-block a:active,
     .swiper-container .swiper-wrapper .education-page footer .social-block a:active,
+    .swiper-container .swiper-wrapper .portfolio-page footer .social-block a:active,
     .swiper-container .swiper-wrapper .contact-page footer .social-block a:active {
         color: #fff;
         opacity: 1;
@@ -192,6 +197,7 @@ li {
     .swiper-container .swiper-wrapper .about-page footer .swipe-icon img,
     .swiper-container .swiper-wrapper .skill-page footer .swipe-icon img,
     .swiper-container .swiper-wrapper .education-page footer .swipe-icon img,
+    .swiper-container .swiper-wrapper .porifolio-page footer .swipe-icon img,
     .swiper-container .swiper-wrapper .contact-page footer .swipe-icon img {
         transform-origin: bottom;
         animation: swipeicon 3s ease-in-out infinite;
@@ -415,6 +421,7 @@ li {
         padding: 0 0 2.4rem 0;
         margin: 0;
     }
+
     .swiper-container .swiper-wrapper .education-page main .text-block p {
         font-family: inherit;
         font-size: 2.2rem;
@@ -423,7 +430,8 @@ li {
         padding: 0 0 .5rem 0;
         margin: 0;
     }
-    .swiper-container .swiper-wrapper .education-page main .text-block small {    
+
+    .swiper-container .swiper-wrapper .education-page main .text-block small {
         display: block;
         font-family: inherit;
         font-size: 1.6rem;
@@ -433,6 +441,80 @@ li {
         margin: 0 0 2.3rem 0;
     }
 
+    /* Education Page Start */
+    .swiper-container .swiper-wrapper .portfolio-page {
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/portfolio-bg.jpg);
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main {
+        margin-top: 12rem;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block h1 {
+        font-family: inherit;
+        font-size: 3.6rem;
+        color: #fff;
+        line-height: 1.618;
+        padding: 0 0 2.4rem 0;
+        margin: 0;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block p {
+        font-family: inherit;
+        font-size: 2.2rem;
+        color: #fff;
+        line-height: 1.618;
+        padding: 0 0 2.2rem 0;
+        margin: 0;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block .swiper-container-portfolio {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block .swiper-slide-portfolio {
+        background-position: center;
+        background-size: cover;
+        width: 16rem;
+        height: 22.3rem;
+    }
+
+    .swiper-container .swiper-wrapper .portfolio-page main .text-block button.slick-prev.slick-arrow,
+    button.slick-next.slick-arrow{
+        display: none!important;
+    }
+
+
+        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li{
+        margin: 0 1rem;
+    }
+        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li button {
+        font-size: 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+}
+        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li.slick-active button {
+    background: var(--accent-color);
+        color: #000;
+}
+
+        .swiper-container .swiper-wrapper .portfolio-page main .text-block ul.slick-dots li button:focus{
+            outline: none;
+            border: none;
+    }
 
     /*Contact Page Start*/
     .swiper-container .swiper-wrapper .contact-page {

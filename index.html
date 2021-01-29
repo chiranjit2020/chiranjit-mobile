@@ -12,6 +12,9 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <!-- Link Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
     <!-- Link Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -163,7 +166,6 @@
             </div> <!-- .skill-page -->
 
             <!-- Education page Start -->
-
             <div class="swiper-slide education-page">
                 <div class="container">
                     <header>
@@ -185,8 +187,8 @@
                             <small>2007-2008</small>
 
                             <p>Secondary Education</p>
-                            <small>2005-2006</small>                            
-                            
+                            <small>2005-2006</small>
+
                         </div> <!-- .text-block -->
                     </main>
                     <footer>
@@ -202,6 +204,52 @@
                     </footer>
                 </div> <!-- .container -->
             </div> <!-- .education-page -->
+
+            <!-- Portfolio page Start -->
+            <div class="swiper-slide portfolio-page">
+                <div class="container">
+                    <header>
+                        <div class="logo-block">
+                            <a href="index.html"><img src="./images/logo-white.png" alt="Chiranjit Karmakar Logo" class="img-fluid" /></a>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="text-block">
+                            <h1>Portfolio</h1>
+                            <p>Some projects which I have created to enrich my skill.</p>
+
+                            <div class="center">
+
+                                <div class="swiper-slide-portfolio" style="background-image:url(./images/portfolio-1.jpg);"></div>
+                                <div class="swiper-slide-portfolio" style="background-image:url(./images/portfolio-2.jpg);"></div>
+                                <div class="swiper-slide-portfolio" style="background-image:url(./images/portfolio-3.jpg);"></div>
+                                <div class="swiper-slide-portfolio" style="background-image:url(./images/portfolio-4.jpg);"></div>
+                            </div>
+
+                        </div> <!-- .text-block -->
+                    </main>
+                    <footer>
+                        <div class="social-block">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="swipe-icon">
+                            <img src="./images/swipe-icon.png" alt="Swipe Icon" class="img-fluid" />
+                        </div>
+                    </footer>
+                </div> <!-- .container -->
+            </div> <!-- .education-page -->
+
+
+
+
+
+
+
+
+
 
             <!-- Contact page Start -->
             <div class="swiper-slide contact-page">
@@ -271,4 +319,19 @@
             },
         });
     </script>
+
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.center').slick({
+            centerMode: true,
+//            centerPadding: '60px',
+            slidesToShow: 1,
+            dots: true,
+            swipeToSlide: true,
+        });
+    </script>
+
 </body></html>
